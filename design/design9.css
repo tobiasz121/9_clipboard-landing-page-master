@@ -1,0 +1,195 @@
+body, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color:#9EABB2;
+    opacity: 100%;
+    background: url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+    
+}
+
+h1,h2,h3 {
+    font-weight: 600;
+    color:#4C545C
+}
+
+h1 {
+    font-size: 4.6rem;
+}
+
+h2 {
+    font-size:3.6rem;
+    margin-bottom: 2rem;;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 73rem;    
+    margin:auto;    
+}
+
+.margin {
+    margin-bottom: 7rem;
+}
+
+/* Clipboard header */
+
+header {
+    margin-top: 13.1rem;
+}
+
+
+header img:first-of-type {
+    margin-bottom: 6.8rem;
+}
+
+header p:first-of-type {
+    font-size: 2.1rem;
+    margin-top: 1.6rem;
+    margin-bottom: 4.8rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width:47rem;
+    margin:auto;    
+}
+
+.button {
+    width: 48%;
+    border-radius: 1rem;
+    height: 5.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#26BBA4;
+}
+
+.button:last-child {
+    background-color: #6174FF;
+}
+
+
+/* Sections with articles */
+
+section {
+    margin-top: 15rem;
+}
+
+article {
+    margin-bottom: 15rem;
+}
+
+article:nth-of-type(2) {
+    margin-bottom: 5rem;
+}
+
+
+.mac {
+    display: flex;
+    justify-content: flex-start;
+    transform: translateX(-3.2rem);
+}
+
+.mac > img {
+    height:57.2rem;
+}
+
+.mac_desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 11rem;   
+    margin-top: 6.8rem; 
+
+}
+
+.mac_desc > div {
+    text-align:left;
+    max-width: 35rem;
+    margin-bottom: 5.6rem;
+
+
+}
+
+.mac_desc p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.workflow {
+    width:80%;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;    
+    
+}
+
+.inner_card {
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.inner_card > p {
+    font-size: 1.6rem;
+}
+
+.inner_card > img {
+    height: 4rem;
+    width:4rem
+}
+
+.inner_card:nth-of-type(3) > img {
+    height: 4rem;
+    width:5rem
+}
+
+.inner_card > h3 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.logos > img {
+    width:12.5rem;
+    height: auto;
+}
+
+
+
