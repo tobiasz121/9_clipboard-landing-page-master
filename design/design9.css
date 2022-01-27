@@ -16,8 +16,7 @@ body {
     background: url("../images/bg-header-desktop.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 h1,h2,h3 {
@@ -183,13 +182,65 @@ article:nth-of-type(2) {
 
 .logos {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;   
+    margin-top: 15rem; 
+    margin-bottom: 15rem;
 }
 
 .logos > img {
-    width:12.5rem;
+    width:auto;
     height: auto;
 }
 
+/* Footer */
+
+footer {
+    margin-top: 15rem;
+    bottom:0;
+    height:15rem;
+    background-color: #F5F7F7;
+    display: flex;
+    align-items: center;s   
+}
+
+.footer {
+    width: 111rem;
+    margin:auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+    position: relative;
+}
+
+.footer > img {
+    width:5.5rem;
+    height: auto;
+    margin-right: 13.5rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 7.2rem;
+}
+
+.details p {
+    width:22.5rem;
+    text-align: left;
+}
+
+.logos_footer {
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: absolute;
+    right:0;
+}
+
+.logos_footer > a {
+    margin-left: 2rem;
+}
 
 
