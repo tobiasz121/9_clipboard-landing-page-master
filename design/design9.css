@@ -16,7 +16,7 @@ body {
     background: url("../images/bg-header-desktop.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
-    text-align: center;    
+    text-align: center;
 }
 
 h1,h2,h3 {
@@ -47,8 +47,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 73rem;    
-    margin:auto;    
+    max-width: 73rem;
+    margin:auto;
 }
 
 .margin {
@@ -76,7 +76,7 @@ header p:first-of-type {
     display: flex;
     justify-content: space-between;
     width:47rem;
-    margin:auto;    
+    margin:auto;
 }
 
 .button {
@@ -123,8 +123,8 @@ article:nth-of-type(2) {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 11rem;   
-    margin-top: 6.8rem; 
+    margin-left: 11rem;
+    margin-top: 6.8rem;
 
 }
 
@@ -132,8 +132,6 @@ article:nth-of-type(2) {
     text-align:left;
     max-width: 35rem;
     margin-bottom: 5.6rem;
-
-
 }
 
 .mac_desc p {
@@ -148,8 +146,8 @@ article:nth-of-type(2) {
 
 .cards {
     display: flex;
-    justify-content: space-between;    
-    
+    justify-content: space-between;
+
 }
 
 .inner_card {
@@ -182,8 +180,8 @@ article:nth-of-type(2) {
 
 .logos {
     display: flex;
-    justify-content: space-between;   
-    margin-top: 15rem; 
+    justify-content: space-between;
+    margin-top: 15rem;
     margin-bottom: 15rem;
 }
 
@@ -200,7 +198,7 @@ footer {
     height:15rem;
     background-color: #F5F7F7;
     display: flex;
-    align-items: center;s   
+    align-items: center;
 }
 
 .footer {
@@ -208,7 +206,7 @@ footer {
     margin:auto;
     display: flex;
     justify-content: flex-start;
-    align-items: center;    
+    align-items: center;
     position: relative;
 }
 
@@ -229,6 +227,14 @@ footer {
 .details p {
     width:22.5rem;
     text-align: left;
+    color:#4C545C;
+    font-weight: 400;
+}
+
+.details p:hover {
+    width:22.5rem;
+    text-align: left;
+    color: #9EABB2;
 }
 
 .logos_footer {
@@ -244,3 +250,193 @@ footer {
 }
 
 
+/* active states */
+
+.button:hover {
+    background-color: #54f2a6;
+}
+
+.logos_footer img:hover {
+    filter: invert(78%) sepia(83%) saturate(1865%) hue-rotate(355deg) brightness(99%) contrast(80%);
+}
+
+/* Responsive design */
+
+@media screen and (max-width:500px){
+
+html {
+    font-size:50%;
+}
+
+section, header {
+    width: 83%;
+    margin:auto
+}
+
+h1 {
+    line-height: 6rem;
+}
+
+h2 {
+    line-height: 4.5rem;
+}
+
+header {
+    margin-bottom: 10rem;
+}
+
+header > div:first-child {
+    margin-top: 10rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width:100%;
+    margin:auto;
+}
+
+.button {
+    width: 100%;
+    border-radius: 3rem;
+    height: 5.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#26BBA4;
+    margin-bottom: 2rem;
+}
+
+.mac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transform: none;
+}
+
+
+.mac > img {
+    width:100%;
+    height: auto;
+}
+
+.mac_desc {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:0;
+    margin-top: 5rem;
+
+}
+
+.mac_desc > div {
+    text-align:center;
+    width: 100%;
+    margin-bottom: 5.6rem;
+}
+
+.mac_desc p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+
+article:nth-of-type(2) > img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.inner_card {
+    margin-bottom: 5rem;
+}
+
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+
+.logos > img {
+    width:50%;
+    height: auto;
+    margin-bottom: 10rem;
+}
+
+
+footer {
+    width: 100%;
+    margin-top: 15rem;    
+    height:auto;  
+      
+}
+
+.footer {
+    width: 100%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: static;
+}
+
+.footer > img {
+    width:5.5rem;
+    height: auto;
+    margin: 5rem 0 5rem 0;
+}
+
+.logos_footer {
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: static;
+    margin-top: 5rem;
+    
+}
+
+.details p {
+    width:22.5rem;
+    text-align: center;
+    padding: 2rem;  
+    
+}
+
+.details p:hover {   
+    text-align: center;   
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+}
+
+.logos_footer > a {
+    margin-left: 2rem;
+    margin-right: 2rem;;
+}
+
+
+    
+}
